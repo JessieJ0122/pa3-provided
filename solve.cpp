@@ -167,7 +167,7 @@ void solve(double **_E, double **_E_prev, double *R, double alpha, double dt, Pl
 
  } //end of 'niter' loop at the beginning
 
-  printMat2("Rank 0 Matrix E_prev", E_prev, m,n);  // return the L2 and infinity norms via in-out parameters
+  //  printMat2("Rank 0 Matrix E_prev", E_prev, m,n);  // return the L2 and infinity norms via in-out parameters
 
   stats(E_prev,m,n,&Linf,&sumSq);
   L2 = L2Norm(sumSq);

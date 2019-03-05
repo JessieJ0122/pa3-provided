@@ -43,9 +43,6 @@ void stats(double *E, int m, int n, double *_mx, double *sumSq){
         double fe = fabs(E[i]);
         if (fe > mx)
             mx = fe;
-
-	printf("%d %d %9.8f\n", rowIndex, colIndex, fe);
-
     }
     *_mx = mx;
     *sumSq = _sumSq;
